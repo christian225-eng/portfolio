@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@plugin "daisyui" { 
+  themes: all; /* garde tous les thèmes DaisyUI */
+}
+
+@plugin "daisyui/theme" {
+  name: "mytheme";
+  default: true; /* ton thème est celui appliqué par défaut */
+  --color-primary: #CC4F38;
+  --color-accent: #FF6347;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
