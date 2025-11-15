@@ -1,3 +1,4 @@
+import About from "./components/about";
 import Accueil from "./components/Accueil";
 import Navbar from "./components/Navbar";
 
@@ -8,6 +9,9 @@ export default function App() {
     </div>
     <section className="px-[5%] mt-20">
         <Accueil />
+      </section>
+      <section>
+        <About />
       </section></>
   );
 }
